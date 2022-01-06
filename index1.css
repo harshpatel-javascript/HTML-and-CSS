@@ -1,4 +1,36 @@
 * {
-  margin: 0;
-  padding: 0;
+  font-size: large;
+}
+h1,
+p {
+  color: skyblue;
+}
+header h1 {
+  position: fixed;
+}
+div > p {
+  color: brown;
+}
+p.myquote {
+  font-weight: 900;
+}
+p::first-letter {
+  font-size: 1.5rem;
+}
+li:nth-last-of-type(2) {
+  color: chocolate;
+}
+.positions,
+.position1 {
+  position: relative;
+}
+.positions img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.position1 img {
+  position: relative;
+  left: -70px;
 }
