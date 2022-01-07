@@ -110,3 +110,33 @@ li:nth-last-of-type(2) {
 .footer {
   grid-area: footer;
 }
+.animation {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  background-color: aqua;
+  padding: 10px;
+}
+.block {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-color: red;
+}
+.block:hover {
+  animation-name: backwards;
+  animation-duration: 10s;
+}
+@keyframes backwards {
+  0% {
+    height: 150px;
+  }
+  100% {
+    width: 390px;
+  }
+}
+img {
+  height: 200px;
+  width: 100px;
+  object-fit: cover;
+}
