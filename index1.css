@@ -79,3 +79,34 @@ li:nth-last-of-type(2) {
 .item4 {
   grid-area: 1/2/3/4;
 }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "aside section section2"
+    "footer footer footer";
+  grid-gap: 10px;
+  color: white;
+  grid-template-rows: 50px 50px 50px;
+  background-color: orange;
+}
+.item {
+  padding: 10px;
+  text-align: center;
+  border: 0.5px solid grey;
+}
+.header {
+  grid-area: header;
+}
+.aside {
+  grid-area: aside;
+}
+.section {
+  grid-area: section;
+}
+.section2 {
+  grid-area: section2;
+}
+.footer {
+  grid-area: footer;
+}
