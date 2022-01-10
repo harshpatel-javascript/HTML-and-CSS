@@ -117,5 +117,54 @@
         </tr>
       </tbody>
     </table>
+    <form action="">
+      <div class="mb-3">
+        <label for="Email ">Email address</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" />
+        <div class="form-text" id="emailHelp">
+          We'll never share your email with anyone else.
+        </div>
+        <div class="mb-3">
+          <input type="file" name="image input" id="formFile" />
+        </div>
+        <label for="exampleDataList" class="form-label"
+          >choose form datalist</label
+        >
+        <input
+          class="form-control"
+          list="datalistOptions"
+          id="exampleDataList"
+          placeholder="Type to search..."
+        />
+        <datalist id="datalistOptions">
+          <option value="San Francisco"></option>
+          <option value="New York"></option>
+          <option value="Seattle"></option>
+          <option value="Los Angeles"></option>
+          <option value="Chicago"></option>
+        </datalist>
+      </div>
+      <div class="form-check">
+        <input
+          type="checkbox"
+          name="chekbox"
+          id="flexCheckDefault"
+          class="form-check-input"
+        />
+        <label class="form-check-label" for="flexCheckDefault">
+          Default checkbox
+        </label>
+        <label for="customRange3" class="form-label">Example range</label>
+        <input
+          type="range"
+          class="form-range"
+          min="0"
+          max="5"
+          step="0.5"
+          id="customRange3"
+        />
+      </div>
+      <button class="btn btn-primary">Submit</button>
+    </form>
   </body>
 </html>
